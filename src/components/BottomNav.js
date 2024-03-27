@@ -2,6 +2,7 @@
 
 import {useState} from "react";
 import {BottomNavigation, BottomNavigationAction} from '@mui/material';
+import Link from "next/link";
 
 export const BottomNav = () => {
   const [value, setValue] = useState(0);
@@ -10,8 +11,8 @@ export const BottomNav = () => {
     <BottomNavigation showLabels value={value} onChange={(event, newValue) => {
       setValue(newValue);
     }}>
-      <BottomNavigationAction label='home'/>
-      <BottomNavigationAction label='profile'/>
+      <BottomNavigationAction component={() => <Link href='/'>home</Link>} label='home'/>
+      <BottomNavigationAction component={() => <Link href='/profile'>profile</Link>} label='profile'/>
     </BottomNavigation>
   </>
 }
