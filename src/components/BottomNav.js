@@ -11,8 +11,8 @@ export const BottomNav = () => {
     <BottomNavigation showLabels value={value} onChange={(event, newValue) => {
       setValue(newValue);
     }}>
-      <BottomNavigationAction component={() => <Link href='/'>home</Link>} label='home'/>
-      <BottomNavigationAction component={() => <Link href='/profile'>profile</Link>} label='profile'/>
+      <BottomNavigationAction component={(props) => <Link {...props} href='/'>home</Link>} label='home'/>
+      <BottomNavigationAction component={(props) => <Link {...props} href='/profile'>profile</Link>} label='profile'/>
     </BottomNavigation>
   </>
 }
