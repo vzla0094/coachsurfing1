@@ -1,104 +1,102 @@
-{
-  "posts": [
-    {
-      "postId": "1",
-      "userId": "/akshnqCIUYWR837",
-      "author": "John",
-      "text": "Enjoying a peaceful day at the beach. The waves gently lapping against the shore create a soothing melody. The golden sands stretch endlessly, inviting me to take a leisurely stroll along the coastline. Seagulls glide gracefully overhead, adding to the serene ambiance of this coastal paradise.",
-      "picture": {
-        "alt": "Beach view",
-        "url": "https://example.com/beach.jpg"
-      }
-    },
-    {
-      "postId": "2",
-      "userId": "/tzbmqoPLNRE452",
-      "author": "Emily",
-      "text": "Exploring new hiking trails! The crisp air fills my lungs as I trek through the dense forest, surrounded by towering trees. Sunlight filters through the canopy above, casting dappled shadows on the forest floor. Each step brings me closer to nature, rejuvenating my spirit with every stride.",
-      "picture": {
-        "alt": "Hiking adventure",
-        "url": "https://example.com/hiking.jpg"
-      }
-    },
-    {
-      "postId": "3",
-      "userId": "/hrsybkWOPEQ157",
-      "author": "Michael",
-      "text": "Delicious homemade dinner tonight! The aroma of spices fills the kitchen as I prepare a hearty meal for my loved ones. The sizzle of ingredients in the pan creates a symphony of flavors, tantalizing my taste buds with anticipation. As we gather around the table, laughter and conversation flow freely, making this meal truly special.",
-      "picture": {
-        "alt": "Homemade dinner",
-        "url": "https://example.com/dinner.jpg"
-      }
-    },
-    {
-      "postId": "4",
-      "userId": "/gsapitDMNEO846",
-      "author": "Sophia",
-      "text": "Sunset views from my balcony. #blessed The sky is painted in hues of orange and pink, creating a breathtaking panorama. Clouds drift lazily across the horizon, illuminated by the warm glow of the setting sun. With each passing moment, the beauty of nature unfolds before my eyes, filling me with awe and gratitude.",
-      "picture": {
-        "alt": "Balcony sunset",
-        "url": "https://example.com/sunset.jpg"
-      }
-    },
-    {
-      "postId": "5",
-      "userId": "/poyfsnRKDLW826",
-      "author": "Daniel",
-      "text": "Catching up with friends over coffee. Laughter fills the air as we reminisce about old memories and make plans for the future. The aroma of freshly brewed coffee wafts through the cafe, mingling with the sound of lively conversation. In this moment, surrounded by friends, I feel truly alive and grateful for the bonds we share.",
-      "picture": {
-        "alt": "Coffee with friends",
-        "url": "https://example.com/coffee.jpg"
-      }
-    },
-    {
-      "postId": "6",
-      "userId": "/bkjwmdHYTQO569",
-      "author": "Emma",
-      "text": "Saturday morning yoga session! The gentle flow of movements calms my mind and rejuvenates my body, setting a positive tone for the day. As I sink into each pose, I feel a sense of peace wash over me, grounding me in the present moment. With each breath, I let go of stress and tension, embracing the tranquility of the practice.",
-      "picture": {
-        "alt": "Yoga session",
-        "url": "https://example.com/yoga.jpg"
-      }
-    },
-    {
-      "postId": "7",
-      "userId": "/wklaepMVCNZ471",
-      "author": "William",
-      "text": "Admiring the city lights from the rooftop. The skyline is aglow with a myriad of colors, creating a mesmerizing view. Skyscrapers reach towards the heavens, their lights twinkling like stars in the night sky. From this vantage point, I feel a sense of awe at the beauty and energy of the urban landscape.",
-      "picture": {
-        "alt": "City lights",
-        "url": "https://example.com/citylights.jpg"
-      }
-    },
-    {
-      "postId": "8",
-      "userId": "/mvrnsoPIEWF826",
-      "author": "Olivia",
-      "text": "Celebrating my birthday with loved ones. The room is filled with joy and laughter as we come together to mark another year of blessings. Candles flicker on the cake, casting a warm glow on the festivities. Surrounded by friends and family, I feel truly loved and cherished on this special day.",
-      "picture": {
-        "alt": "Birthday celebration",
-        "url": "https://example.com/birthday.jpg"
-      }
-    },
-    {
-      "postId": "9",
-      "userId": "/zblmpqKRYTQ658",
-      "author": "James",
-      "text": "Enjoying a book by the fireplace on a rainy day. The crackling of the fire provides a cozy ambiance as I get lost in the pages of a novel. Raindrops patter against the windowpane, adding to the soothing soundtrack of nature. In this moment of solitude, I find solace and contentment in the simple pleasures of life.",
-      "picture": {
-        "alt": "Rainy day reading",
-        "url": "https://example.com/reading.jpg"
-      }
-    },
-    {
-      "postId": "10",
-      "userId": "/axcvbnZPOWQ924",
-      "author": "Ava",
-      "text": "Exploring the beauty of nature. The tranquil sounds of birds chirping and leaves rustling soothe my soul as I wander through the wilderness. Sunlight filters through the trees, casting a warm glow on the forest floor. With each step, I feel a deep connection to the natural world and a sense of wonder at its infinite wonders.",
-      "picture": {
-        "alt": "Nature exploration",
-        "url": "https://example.com/nature.jpg"
-      }
+[
+  {
+    "postId": "1",
+    "userId": "akshnqCIUYWR837",
+    "author": "John",
+    "text": "Enjoying a peaceful day at the beach. The waves gently lapping against the shore create a soothing melody. The golden sands stretch endlessly, inviting me to take a leisurely stroll along the coastline. Seagulls glide gracefully overhead, adding to the serene ambiance of this coastal paradise.",
+    "picture": {
+      "alt": "Beach view",
+      "url": "https://example.com/beach.jpg"
     }
-  ]
-}
+  },
+  {
+    "postId": "2",
+    "userId": "tzbmqoPLNRE452",
+    "author": "Emily",
+    "text": "Exploring new hiking trails! The crisp air fills my lungs as I trek through the dense forest, surrounded by towering trees. Sunlight filters through the canopy above, casting dappled shadows on the forest floor. Each step brings me closer to nature, rejuvenating my spirit with every stride.",
+    "picture": {
+      "alt": "Hiking adventure",
+      "url": "https://example.com/hiking.jpg"
+    }
+  },
+  {
+    "postId": "3",
+    "userId": "hrsybkWOPEQ157",
+    "author": "Michael",
+    "text": "Delicious homemade dinner tonight! The aroma of spices fills the kitchen as I prepare a hearty meal for my loved ones. The sizzle of ingredients in the pan creates a symphony of flavors, tantalizing my taste buds with anticipation. As we gather around the table, laughter and conversation flow freely, making this meal truly special.",
+    "picture": {
+      "alt": "Homemade dinner",
+      "url": "https://example.com/dinner.jpg"
+    }
+  },
+  {
+    "postId": "4",
+    "userId": "gsapitDMNEO846",
+    "author": "Sophia",
+    "text": "Sunset views from my balcony. #blessed The sky is painted in hues of orange and pink, creating a breathtaking panorama. Clouds drift lazily across the horizon, illuminated by the warm glow of the setting sun. With each passing moment, the beauty of nature unfolds before my eyes, filling me with awe and gratitude.",
+    "picture": {
+      "alt": "Balcony sunset",
+      "url": "https://example.com/sunset.jpg"
+    }
+  },
+  {
+    "postId": "5",
+    "userId": "poyfsnRKDLW826",
+    "author": "Daniel",
+    "text": "Catching up with friends over coffee. Laughter fills the air as we reminisce about old memories and make plans for the future. The aroma of freshly brewed coffee wafts through the cafe, mingling with the sound of lively conversation. In this moment, surrounded by friends, I feel truly alive and grateful for the bonds we share.",
+    "picture": {
+      "alt": "Coffee with friends",
+      "url": "https://example.com/coffee.jpg"
+    }
+  },
+  {
+    "postId": "6",
+    "userId": "bkjwmdHYTQO569",
+    "author": "Emma",
+    "text": "Saturday morning yoga session! The gentle flow of movements calms my mind and rejuvenates my body, setting a positive tone for the day. As I sink into each pose, I feel a sense of peace wash over me, grounding me in the present moment. With each breath, I let go of stress and tension, embracing the tranquility of the practice.",
+    "picture": {
+      "alt": "Yoga session",
+      "url": "https://example.com/yoga.jpg"
+    }
+  },
+  {
+    "postId": "7",
+    "userId": "wklaepMVCNZ471",
+    "author": "William",
+    "text": "Admiring the city lights from the rooftop. The skyline is aglow with a myriad of colors, creating a mesmerizing view. Skyscrapers reach towards the heavens, their lights twinkling like stars in the night sky. From this vantage point, I feel a sense of awe at the beauty and energy of the urban landscape.",
+    "picture": {
+      "alt": "City lights",
+      "url": "https://example.com/citylights.jpg"
+    }
+  },
+  {
+    "postId": "8",
+    "userId": "mvrnsoPIEWF826",
+    "author": "Olivia",
+    "text": "Celebrating my birthday with loved ones. The room is filled with joy and laughter as we come together to mark another year of blessings. Candles flicker on the cake, casting a warm glow on the festivities. Surrounded by friends and family, I feel truly loved and cherished on this special day.",
+    "picture": {
+      "alt": "Birthday celebration",
+      "url": "https://example.com/birthday.jpg"
+    }
+  },
+  {
+    "postId": "9",
+    "userId": "zblmpqKRYTQ658",
+    "author": "James",
+    "text": "Enjoying a book by the fireplace on a rainy day. The crackling of the fire provides a cozy ambiance as I get lost in the pages of a novel. Raindrops patter against the windowpane, adding to the soothing soundtrack of nature. In this moment of solitude, I find solace and contentment in the simple pleasures of life.",
+    "picture": {
+      "alt": "Rainy day reading",
+      "url": "https://example.com/reading.jpg"
+    }
+  },
+  {
+    "postId": "10",
+    "userId": "axcvbnZPOWQ924",
+    "author": "Ava",
+    "text": "Exploring the beauty of nature. The tranquil sounds of birds chirping and leaves rustling soothe my soul as I wander through the wilderness. Sunlight filters through the trees, casting a warm glow on the forest floor. With each step, I feel a deep connection to the natural world and a sense of wonder at its infinite wonders.",
+    "picture": {
+      "alt": "Nature exploration",
+      "url": "https://example.com/nature.jpg"
+    }
+  }
+]

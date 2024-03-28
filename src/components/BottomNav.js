@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const BottomNav = () => {
   const [value, setValue] = useState(0);
-
+  
   return <>
     <BottomNavigation showLabels value={value} onChange={(event, newValue) => {
       setValue(newValue);
