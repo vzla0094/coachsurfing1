@@ -1,15 +1,23 @@
+'use client'
 import {Stack} from '@mui/material';
 import {Post} from "@/components/Post";
-
+import {useEffect, useState} from "react";
+import data from '/src/posts.json'
 
 export default function Home() {
+  const [posts, setPosts] = useState([])
+
+  useEffect(() => {
+    // TODO: improve mock call with Promises
+    setTimeout(() => {
+      setPosts(data.posts)
+    }, 2000)
+  }, [])
+
   return (
     <>
       <Stack spacing={1}>
-        <Post author='Valentina'
-              text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna eu libero placerat, vitae fermentum libero malesuada. Phasellus consequat ante sed enim ultricies, eu aliquet mi pulvinar. Nulla facilisi. Mauris vitae consequat velit.'/>
-        <Post author='Carlos'
-              text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper magna eu libero placerat, vitae fermentum libero malesuada. Phasellus consequat ante sed enim ultricies, eu aliquet mi pulvinar. Nulla facilisi. Mauris vitae consequat velit.'/>
+        {posts.map(({author, text, picture}) => <Post author={author} text={text} picture={picture}/>)}
       </Stack>
     </>
   );
